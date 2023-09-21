@@ -1,0 +1,70 @@
+/* Sidebar container */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(31, 30, 30); /* Light gray sidebar background color */
+    color: #ffffff; /* White text color */
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2); /* Add a shadow to the sidebar */
+    display: flex; /* Make the sidebar a flex container */
+    flex-direction: column; /* Stack the items vertically */
+  }
+  
+  /* Sidebar header */
+  .sidebar-header {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #060606;
+  }
+  
+  /* Sidebar menu */
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #555555;
+    display: flex; /* Align items vertically */
+    align-items: center; /* Center items vertically */
+    position: relative; /* Enable dropdown positioning */
+  }
+  
+  /* Add spacing between icon and text */
+  .sidebar-menu li i {
+    margin-right: 10px;
+  }
+  
+  /* Sidebar menu hover effect */
+  .sidebar-menu li:hover {
+    background-color: #555555;
+  }
+  
+  /* Sidebar dropdown styles */
+  .dropdown-menu {
+    display: none;
+    background-color: #444; /* Dropdown background color */
+    position: absolute;
+    top: 100%; /* Position the dropdown below the parent */
+     /* Position the dropdown to the right of the parent */
+    width: 200px; /* Adjust the width as needed */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebar-menu li:hover .dropdown-menu {
+    display: block;
+    top: 0;
+    left: 100%; /* Position the dropdown to the right of the parent */
+    z-index: 1; /* Ensure the dropdown appears above other elements */
+  }
+  .button {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color:inherit;
+    width: 200px;
+  }

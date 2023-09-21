@@ -1,0 +1,18 @@
+/* Footer.css */
+
+/* Styles for the entire footer */
+.MDBFooter {
+  background-color: light;
+  text-align: center;
+  color: #6c757d; /* Text color */
+}
+
+/* Center the content horizontally */
+.MDBFooter .container {
+  display: flex;
+  justify-content: center;
+  text-align: left; /* Adjust text alignment as needed */
+}
+
+/* Styles for other elements in your footer (social media, company info, etc.) */
+/* ... (Add other styles here as needed) */
