@@ -1,0 +1,201 @@
+.home-container {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwx-5UUu3SJuk7YKBwmp0-vnLQRl7bXJ8Fjw&usqp=CAU');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-container>header {
+    background-color: gray;
+    opacity: 0.4;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.home-container>nav {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0 0 0;
+}
+
+.home-container .home-nav-active {
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.home-listall-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-ListAll-header {
+    margin: 1rem 0 0 0;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.home-table {
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+}
+
+.home-table th {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 0 2rem;
+    font-size: x-large;
+}
+
+
+.home-table tr {
+    padding: 0 1rem;
+    text-align: center;
+}
+
+
+.home-table tr {
+    background-color: lightgray;
+}
+
+.home-table td {
+    padding: 0 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions>button {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin: 0.5rem;
+    font-size: x-large;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.actions>button:hover {
+    background-color: white;
+    color: blue;
+    transition: 0.5s;
+}
+
+.addDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0 0 0;
+    color: white;
+}
+
+.addDetails label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    padding: 1rem;
+}
+
+.addDetails input,
+.addDetails select {
+    border: none;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.addDetails button {
+    background-color: brown;
+}
+
+.dialog-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 50%;
+    left: 70%;
+    width: auto;
+}
+
+.dialog {
+    z-index: 1;
+}
+
+.blur {
+    opacity: 0.4;
+}
+
+.dialog>fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 1rem;
+}
+
+
+.dialog>fieldset input {
+    padding: 0.6rem;
+    margin: 0.4rem;
+}
+
+.dialog input,
+.dialog select {
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+
+}
+
+
+legend {
+    font-size: x-large;
+}
+
+.update-value input {
+    padding: 1rem 0;
+    border: none;
+    border-radius: 1rem;
+}
+
+/*  */
+
+.home-logout {
+    position: absolute;
+    left: 90%;
+    font-size: 2rem;
+    top: 2%;
+    font-weight: bold;
+}
+
+.home-nav-background{
+    width: 100vw;
+    color: white;
+    /* background-color: ; */
+}
