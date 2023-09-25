@@ -1,0 +1,104 @@
+.home-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #f5f5f5, #eaeaea);
+  background-image: url("C:\Users\praga\OneDrive\Pictures\image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 210px;
+  height: 100vh;
+  
+  
+}
+.pdf{
+  position: absolute;
+  top: 93%;
+  left: 1%;
+  width: 96%;
+}
+
+/* Rest of the CSS code remains the same */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.dashboard,
+.featured-products,
+.quick-links,
+.news-announcements {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #c6c1c16e, #f8f8f8);
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.9s ease;
+}
+
+.dashboard:hover,
+.featured-products:hover,
+.quick-links:hover,
+.news-announcements:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard h2,
+.featured-products h2,
+.quick-links h2,
+.news-announcements h2 {
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #d9d1d100, #eaeaea);
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer li {
+  margin: 0 10px;
+}
+
+.footer li:first-child {
+  margin-left: 0;
+}
+
+.footer li:last-child {
+  margin-right: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}

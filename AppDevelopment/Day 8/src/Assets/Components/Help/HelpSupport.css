@@ -1,0 +1,42 @@
+/* Add your custom styles here */
+
+.help-support-container {
+  margin: 100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.message-box {
+  margin-bottom: 20px;
+}
+
+.message-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.feedback {
+  margin-bottom: 10px;
+}
+
+.feedback-text {
+  color: green;
+}
+
+.send-button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.data-list {
+  padding: 10px;
+}
+
+.received-message {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,63 @@
+/* Login.css */
+
+/* Styles for the main login container */
+.custom-login {
+  background-image: url("C:\Users\praga\Downloads\istockphoto-1158091486-2048x2048.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styles for the image with id "limg" */
+#limg {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Styles for the h1 heading */
+h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the email and password input fields */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for the error message */
+.p-error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Styles for the login button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the "New to Vector? Create an account" link */
+NavLink {
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* Add any other custom styles you want for the Login component */

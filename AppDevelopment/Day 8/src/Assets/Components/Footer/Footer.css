@@ -1,0 +1,163 @@
+/* Footer styles */
+.footer {
+    
+    color: rgb(15, 14, 14);
+    background-color: transparent;
+    bottom: 20%;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1); 
+
+  }
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  ;
+  }
+  .footer-column {
+    flex: 1;
+    padding: 0 1rem;
+  } 
+  .footer-heading {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #333;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-list-item {
+    margin-bottom: 0.625rem;
+  }
+  
+  .footer-link {
+    color: #333;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #6faaff;
+  }
+  
+  .social-icons {
+    display: flex;
+    column-gap: 0.625rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-icons-item {
+    margin-bottom: 0rem;
+  }
+  
+  /* Specific icon styles */
+  .social-icon-link {
+    display: grid;
+    place-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    border: 1.5px solid black;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon-link.facebook:hover {
+    background-color: #1877f2; /* Facebook blue color */
+    color: #fff;
+  }
+  
+  .social-icon-link.instagram:hover {
+    background-color: pink;
+    color: #fff;
+  }
+  
+  .social-icon-link.twitter:hover {
+    background-color:blue;
+    color: #fff;
+  }
+  
+  .social-icon-link.github:hover {
+    background-color: black;
+    color: #fff;
+  }
+  
+  .copyright {
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 0.6rem 0;
+    margin-top: 1rem;
+  }
+  
+  /* Add this CSS to your Footer.css or a separate CSS file */
+  
+  /* Style for the "Legal" section */
+  .footer-column h4 {
+      font-size: 1.2rem; /* Adjust the font size as needed */
+      margin-bottom: 10px;
+      color: #333; /* Adjust the color as needed */
+    }
+    
+    /* Style for the "Terms and Conditions" link */
+    .footer-link {
+      color: black; /* Link color */
+      text-decoration: none;
+    }
+    
+    .footer-link:hover {
+      text-decoration: underline; /* Underline the link on hover */
+    }
+    
+    /* Copyright text style */
+    .copyright {
+      margin-top: 20px;
+      font-size: 0.8rem; /* Adjust the font size as needed */
+      color: #666; /* Adjust the color as needed */
+    }
+    
+  /* Responsive adjustments for mobile version */
+  @media screen and (max-width: 768px) {
+    .footer-row {
+      flex-direction: column;
+    }
+  
+    .footer-column {
+      width: 100%;
+      margin: 0;
+      padding: 0 0.5rem;
+      text-align: center;
+    }
+  
+    .footer-heading {
+      font-size: 1.3125rem;
+    }
+  
+    .footer-text,
+    .footer-link {
+      font-size: 0.9375rem;
+    }
+  
+    .social-icon-link {
+      width: 1.975rem;
+      height: 1.975rem;
+    }
+  
+  }

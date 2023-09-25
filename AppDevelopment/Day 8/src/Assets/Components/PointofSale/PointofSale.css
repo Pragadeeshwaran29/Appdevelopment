@@ -1,0 +1,94 @@
+/* PointOfSale.css */
+
+.fullscreen-containers {
+  height: 100vh;
+  background-image: url('https://media.licdn.com/dms/image/C5612AQHhhUozDBO6Sg/article-cover_image-shrink_720_1280/0/1520192048817?e=2147483647&v=beta&t=WpjtgjSRcirodXiV1kJZbXJ17bKC62n70H_K6uaKtX8');
+  background-size: cover;
+  background-position: center;
+}
+
+.pos-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 10px;
+}
+
+.pos-heading {
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+.item-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-inputs input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.item-inputs button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-container {
+  margin-top: 40px;
+}
+
+.cart-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-items li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.cart-items li:last-child {
+  border-bottom: none;
+}
+
+.cart-items span {
+  margin-right: 10px;
+}
+
+.cart-items strong {
+  font-weight: bold;
+}
+
+.cart-items button {
+  padding: 6px 10px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-total {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+}
