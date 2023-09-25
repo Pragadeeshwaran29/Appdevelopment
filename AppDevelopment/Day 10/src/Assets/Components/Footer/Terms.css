@@ -1,0 +1,76 @@
+/* TermsAndConditions.css */
+
+/* Container */
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Lists */
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  /* Limitation of liability */
+  .limitation {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  /* Responsive adjustments for mobile version */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  
