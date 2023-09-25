@@ -1,0 +1,49 @@
+/* FeaturedProducts.css */
+
+.feature-product-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  gap: 20px; /* Adjust the gap between product cards */
+  justify-content: flex-start; /* Align product cards to the left */
+}
+
+.product-card {
+  min-width: 250px; /* Set a minimum width for each product card */
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: #007bff; /* Blue color for price */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Style the Navbar */
+/* Add your Navbar styles here */
+
+/* You can also add more styles and customize further as needed */
+

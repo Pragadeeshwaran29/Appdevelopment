@@ -1,0 +1,61 @@
+/* Styling for the PrescriptionManagement component container */
+.prescription-management-container {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  margin-top: 50px;
+  
+}
+.pres{
+  background-image: url('https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?cs=srgb&dl=pexels-pixabay-139398.jpg&fm=jpg');
+
+}
+
+/* Styling for the form labels */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styling for the form inputs and textareas */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the "Add Prescription" button */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styling for the Prescription List */
+.prescription-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Styling for each prescription item */
+.prescription-item {
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Styling for the horizontal line */
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}

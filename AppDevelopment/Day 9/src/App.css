@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ccccccb9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg');
+  background-size: cover;
+}
+
+.form-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #231e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.f {
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #d31824;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #000000;
+  background-color: #e0e8e9;
+  margin-left: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #c12a39;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease-in-out;
+  width: 100px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #601e95;
+}
+
+a {
+  text-decoration: none;
+  color: #b38bff;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #8c5fb2;
+}
+
+p {
+  text-align: center;
+  margin: 8px;
+}
+
+.margin {
+  background-color: #cccccc;
+}
+
+.submit {
+  width: 20;
+}
+
+.margin1 {
+  background-color: #cccccc;
+  padding: 18px;
+  border-radius: 15px;
+  margin-left: 10px;
+  padding: 12px;
+  margin-bottom: 30px;
+}
