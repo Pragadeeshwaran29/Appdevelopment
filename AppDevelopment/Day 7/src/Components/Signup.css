@@ -1,0 +1,108 @@
+body {
+    background-image: url("https://images.pexels.com/photos/5921989/pexels-photo-5921989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    image-rendering: pixelated;
+    display:flex;
+    object-fit: cover;
+    
+}
+
+
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
+
+#feedback-form {
+    position:absolute;
+    top:19%;    
+    left:32%;
+    width: 370px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    font-family: sans-serif;
+    
+  }
+  
+  #feedback-form * {
+      box-sizing: border-box;
+  }
+  
+  #feedback-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #feedback-form input {
+    margin-bottom: 15px;
+  }
+  .ahaa
+  {
+    position: absolute;
+    left:24%;
+    top:91%;
+    cursor: pointer;
+  }
+  /* #feedback-form input[type=text] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+  } */
+  #feedback-form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  #feedback-form label {
+    color: #000000;
+    font-size: 0.8em;
+  }
+  
+  #feedback-form input[type=checkbox] {
+    float: left;
+  }
+  
+  #feedback-form input:not(:checked) + #feedback-phone {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #feedback-form #feedback-phone {
+    transition: .3s;
+  }
+  
+  #feedback-form button[type=submit] {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    
+    background: #207cca; /* Old browsers */
+    background: -moz-linear-gradient(left, #000000 0%, #030303 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #000000 0%,#060606 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #010101 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#9f58a3',GradientType=1 ); /* IE6-9 */
+  }
