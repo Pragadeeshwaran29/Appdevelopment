@@ -1,0 +1,19 @@
+
+
+    
+    
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: meow-service
+        uri:
+          lb://meow-service
+        predicates:
+        - Path=/auth/**
+        
+      - id: product-service
+        uri:
+          lb://product-service
+        predicates:
+        - Path=/products/**
